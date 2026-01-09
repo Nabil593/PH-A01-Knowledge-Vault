@@ -28,8 +28,7 @@ Knowledge-Vault/
 ├── assets/
 ├── index.html
 └── style.css
-
----
+```
 
 ## Purpose
 This project was created as part of an HTML & CSS assignment to practice semantic HTML, CSS layout, and responsive web design. It focuses on building a clean, well-structured landing page with a functional layout.
