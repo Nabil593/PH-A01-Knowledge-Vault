@@ -20,15 +20,14 @@ A clean and simple HTML & CSS website for organizing personal knowledge, notes, 
 
 ---
 
+
 ## Folder Structure
 
-
-
+```
 Knowledge-Vault/
 ├── assets/
 ├── index.html
 └── style.css
-
 
 ---
 
