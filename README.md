@@ -4,16 +4,6 @@ A clean and simple HTML & CSS website for organizing personal knowledge, notes, 
 
 ---
 
-## Features
-- Structured thinking, not just note-taking
-- Keep notes, links & learning summaries in one place
-- Connect related ideas automatically
-- Build lasting knowledge with reflection prompts
-- Fast search to find anything instantly
-- Clean UI with clear call-to-action
-
----
-
 ## Technologies
 - HTML5  
 - CSS3
