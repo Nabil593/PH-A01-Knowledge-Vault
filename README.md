@@ -5,7 +5,7 @@ A simple HTML & CSS website for organizing personal knowledge and notes.
 - CSS3
 
 ## Folder Structure
-Knowledge-Vault/
+Knowledge-Vault/<br/>
 ├── index.html<br/>
 ├── style.css<br/>
 └── assets/<br/>
