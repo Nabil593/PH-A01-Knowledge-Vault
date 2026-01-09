@@ -209,3 +209,54 @@ main {
     font-weight: 400;
     color: #627382;
 }
+
+
+
+
+/* Second Brain Section */
+.second-brain-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 130px;
+}
+.second-brain-section img {
+    width: 600px;
+}
+.second-brain-content .p-1 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #3DB868;
+    margin-bottom: 20px;
+}
+.second-brain-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 20px;
+}
+.second-brain-content .p-2 {
+    
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    margin-bottom: 30px;
+}
+.check-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.check-list p {
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+  font-size: 16px;
+  color: #001931;
+}
+.check-list img {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
