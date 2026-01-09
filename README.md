@@ -21,7 +21,6 @@ Knowledge-Vault/
 ```
 
 ## Purpose
-## Purpose
 This project was created as part of an HTML & CSS assignment to practice basic web layout and design.
 
 ---
