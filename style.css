@@ -6,10 +6,12 @@
 body {
     font-family: "Inter", sans-serif;
 }
+
+/* Header section */
 header {
     width: 100%;
     height: 90px;
-    background-color: whitesmoke;
+    background-color: white;
     padding: 16px 120px 16px 120px;
 }
 nav {
@@ -59,8 +61,7 @@ ul li a:hover {
 
 
 
-
-
+/* Hero Section */
 main {
     width: 100%;
     text-align: center;
@@ -71,7 +72,7 @@ main {
     background-image: url("./assets/hero-bg.png");
     background-size: cover;
     background-position: center;
-    padding: 120px 20px;
+    padding: 120px;
     color: #ffffff;
     text-align: center;
 }
@@ -81,7 +82,7 @@ main {
     background: #ffffff;
     color: #2fa866;
     padding: 8px 16px;
-    border-radius: 999px;
+    border-radius: 100px;
     font-size: 14px;
     font-weight: 500;
     text-align: center;
@@ -108,13 +109,13 @@ main {
     font-size: 16px;
     line-height: 32px;
     color: #d1d5db;
-    margin: 0 auto 40px;
-    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
 }
 .hero-buttons {
     display: flex;
     gap: 16px;
-    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
 }
 
@@ -130,21 +131,81 @@ main {
     transition: all 0.3s ease;
 }
 
-.btn.primary {
+.btn.first {
     background: #2fa866;
     color: #ffffff;
 }
 
-.btn.primary:hover {
+.btn.first:hover {
     background: #25c870;
 }
 
-.btn.secondary {
+.btn.second {
     border: 1px solid rgba(255, 255, 255, 0.4);
     color: #ffffff;
     background: transparent;
 }
 
-.btn.secondary:hover {
+.btn.second:hover {
     background: rgba(255, 255, 255, 0.1);
+}
+
+
+
+
+/* Note Section  */
+.note-section {
+    width: 100%;
+    height: 448px;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 80px 130px;
+}
+.note-section h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.note-section p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    margin-bottom: 50px;
+}
+.note-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+.card {
+    width: 322px;
+    height: 300px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px 10px;
+}
+.card-img {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    background-color: #F95555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.card-img img {
+    width: 32px;
+}
+.card h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    padding: 15px 0px;
+}
+.card p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
 }
